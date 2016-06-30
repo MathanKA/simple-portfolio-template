@@ -1,0 +1,73 @@
+/*Main CSS*/
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+.title {
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.title h1 {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.tagline {
+    font-weight: 500;
+    font-family: 'Roboto',sans-serif;
+    letter-spacing: 1px;
+
+}
+
+hr {
+    border-top: 5px solid #7d97ad;
+}
+
+#main {
+    background-color: #ff00ff;
+}
+
+#featured {
+    background-color: #00ffff;
+}
+
+.featured-text h2{
+    color: #7d97ad;
+}
+
+figcaption {
+    text-align: center;
+}
+
+figcaption h3 {
+    text-transform: uppercase;
+    font-family: 'Roboto',sans-serif;
+    color: #2d3c49;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+figcaption p {
+    font-family: 'Roboto',sans-serif;
+    color: #2d3c49;
+    font-size: 14px;
+}
+/*Mobile view*/
+@media only screen and (max-width: 767px){
+    header img{
+        margin: 0px auto;
+    }
+
+    .title {
+        text-align: center;
+    }
+}
